@@ -19,7 +19,7 @@ if(dayNumber <= 5)
     Console.WriteLine("Нет, не является выходным");
 }
 
-if(dayNumber >= 8)
+else
 {
     Console.WriteLine("Введенная цифра не соответствует дню недели");
 }
